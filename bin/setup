@@ -1,0 +1,7 @@
+#!/bin/sh
+
+
+mvn clean install
+
+#To run the test cases
+mvn test -Dtest=MainTestCases
